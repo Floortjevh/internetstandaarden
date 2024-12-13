@@ -1,0 +1,148 @@
+/* styling voor tekst */
+body{
+    background: whitesmoke;
+    color: rgb(38, 36, 94);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header p{
+    margin-top: 2em;
+    margin-left: 1em;
+    font-style: italic;
+    font-size: medium;
+}
+footer{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    font-size: medium;
+    font-style: italic;
+}
+h1{
+    margin-top: 4.8em;
+    margin-bottom: 1.4em;
+    margin-left: 0.588em;
+    font-weight: 600;
+}
+h2{
+    margin-left: 0.7em;
+    margin-bottom: -0.8em;
+    font-weight: 500;
+}
+h3{
+    font-weight: 500;
+}
+
+
+
+/* styling voor linkjes */
+a{
+    color: rgb(38, 36, 94);
+}
+.groen a{
+    color: white;
+}
+nav a{
+    transition: all 250ms ease;
+}
+nav a:hover{
+   background-color: rgb(188, 188, 188);
+}
+nav a:focus-visible{
+    background-color: rgb(188, 188, 188);
+} 
+
+
+
+/* styling voor lijstjes en navigaties */
+ul{
+    list-style-type: none;
+    padding-left: 0em;  
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 4.2em;
+    margin-top: 2.4em;
+}
+nav a{
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    background-color: white;
+    border: 1.6px solid rgb(38, 36, 94);;
+    border-radius: 0.5em;
+}
+
+
+
+/* styling voor groepen */
+div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0em;
+}
+section{
+    box-sizing: border-box;
+    border-radius: 0.6em;
+    border: 0.1px solid whitesmoke;
+    padding: 0.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.8em;
+    margin-right: 5em;
+    background-color: whitesmoke;
+}
+.groen{
+    box-sizing: border-box;
+    border-radius: 0.6em;
+    border: 0.1px solid rgb(45, 95, 111);
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.8em;
+    margin-right: 5em;
+    background-color: rgb(45, 95, 111);
+    color: white;
+    
+}
+
+
+
+/* styling voor afbeeldingen */
+img{
+    border-radius: 0.5em;
+    max-width: 100%;
+    display: block;
+    width: 26vw;
+    margin-left: 2.6em;
+}
+.draaiend:hover{
+    transform: rotate(10deg);
+    background-color: rgb(96, 44, 137);
+}
+.draaiend{
+    transition: all 1s ease;
+    border-radius: 0.5em;
+    max-width: 100%;
+    display: block;
+    width: 32vw;
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 1em;
+    background-color: rgb(38, 36, 94);
+    border: 1.4px solid white;
+}
+
+
